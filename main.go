@@ -7,7 +7,7 @@ import (
 
 func main() {
 	fmt.Println("USAGE: ca-certificates <url>")
-	_, err := http.Head("https://harbor-repo-ui.vmware.com")
+	_, err := http.Head("https://google.com")
 	if err != nil {
 		fmt.Println("ERROR:", err)
 		//os.Exit(2)
