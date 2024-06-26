@@ -12,5 +12,4 @@ func main() {
 		fmt.Println("ERROR:", err)
 		//os.Exit(2)
 	}
-	fmt.Println("SUCCESS!")
 }
